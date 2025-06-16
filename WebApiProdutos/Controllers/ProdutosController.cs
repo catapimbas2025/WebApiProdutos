@@ -6,7 +6,8 @@ namespace WebApiProdutos.Controllers
     [ApiController]
     [Route("api/[controller]")]
     public class ProdutosController : Controller
-    {                       
+    { 
+        
             private static List<Produto> _produtos = new List<Produto>
             {
                 new Produto { Id = 1, Nome = "Notebook", Preco = 3500.00m, Estoque = 10 },
